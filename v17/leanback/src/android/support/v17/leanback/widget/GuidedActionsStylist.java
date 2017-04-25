@@ -624,7 +624,7 @@ public class GuidedActionsStylist implements FragmentAnimationProvider {
             vh.mTitleView.setText(action.getTitle());
             vh.mTitleView.setAlpha(action.isEnabled() ? mEnabledTextAlpha : mDisabledTextAlpha);
             vh.mTitleView.setFocusable(false);
-            vh.mTitleView.setClickable(false);
+            vh.mTitleView.setClickable(true);
             vh.mTitleView.setLongClickable(false);
         }
         if (vh.mDescriptionView != null) {
